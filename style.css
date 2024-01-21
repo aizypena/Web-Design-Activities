@@ -15,12 +15,20 @@ i:hover {
     color: rgb(226, 185, 18);
 }
 
-.dark-theme-clr {
-    color: #fff;
+/* Light Theme Styles */
+body.light-theme-clr {
+    background-color: #c5c5c5;
+    color: #252525;
+    /* Add this line */
+    /* Other styles for light theme */
 }
 
-.light-theme-clr {
-    color: #252525;
+/* Dark Theme Styles */
+body.dark-theme-clr {
+    background-color: #000000;
+    color: #fff;
+    /* Add this line */
+    /* Other styles for dark theme */
 }
 
 .change-btn {
@@ -39,6 +47,15 @@ i:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 3% 5%;
     background-color: #fff;
+}
+
+.main-container-dark {
+    margin: 3%;
+    width: 1000px;
+    height: 1400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(194, 194, 194, 0.12) 0px -12px 30px, rgba(194, 194, 194, 0.12) 0px 4px 6px, rgba(194, 194, 194, 0.17) 0px 12px 13px, rgba(194, 194, 194, 0.09) 0px -3px 5px;
+    padding: 3% 5%;
+    background-color: #484848;
 }
 
 .name-txt {
@@ -78,5 +95,3 @@ i:hover {
 .skills-left {
     width: 20%;
 }
-
-.exp {}

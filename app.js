@@ -1,21 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Function to change the color
     function changeColor() {
-        var icon = document.querySelector('.fa-moon-stars');
+        var button = document.querySelector('.change-btn');
         var body = document.body;
+        var mainContainer = document.querySelector('.main-container');
 
-        // Toggle the dark-theme class on the body
+        // btn-dark and btn-light classes on the button
+        button.classList.toggle('btn-dark');
+        button.classList.toggle('btn-light');
+
+        // light-theme-clr and dark-theme-clr classes on the body
+        body.classList.toggle('light-theme-clr');
         body.classList.toggle('dark-theme-clr');
 
-        // Toggle the color of the icon
-        if (body.classList.contains('dark-theme-clr')) {
-            icon.style.color = "#fff";
-        } else {
-            icon.style.color = "#000";
-        }
+        // .main-container
+        mainContainer.classList.toggle('main-container-dark');
     }
 
-    // Add click event listener to the icon
-    var icon = document.querySelector('.fa-moon-stars');
-    icon.addEventListener("click", changeColor);
+    // click event listener to the button
+    var changeColorBtn = document.querySelector('.change-btn');
+    changeColorBtn.addEventListener("click", changeColor);
 });
