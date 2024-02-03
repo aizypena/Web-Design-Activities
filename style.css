@@ -1,0 +1,97 @@
+body {
+    background-color: #c5c5c5;
+}
+
+.btn-container {
+    padding: 3% 0;
+}
+
+i {
+    color: #000;
+}
+
+i:hover {
+    cursor: pointer;
+    color: rgb(226, 185, 18);
+}
+
+/* Light Theme Styles */
+body.light-theme-clr {
+    background-color: #c5c5c5;
+    color: #252525;
+    /* Add this line */
+    /* Other styles for light theme */
+}
+
+/* Dark Theme Styles */
+body.dark-theme-clr {
+    background-color: #000000;
+    color: #fff;
+    /* Add this line */
+    /* Other styles for dark theme */
+}
+
+.change-btn {
+    border: solid 1.5px #252525;
+}
+
+.change-btn:hover {
+    background-color: #252525;
+    color: #fff;
+}
+
+.main-container {
+    margin: 3%;
+    width: 1000px;
+    height: 1400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 3% 5%;
+    background-color: #fff;
+}
+
+.main-container-dark {
+    margin: 3%;
+    width: 1000px;
+    height: 1400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(194, 194, 194, 0.12) 0px -12px 30px, rgba(194, 194, 194, 0.12) 0px 4px 6px, rgba(194, 194, 194, 0.17) 0px 12px 13px, rgba(194, 194, 194, 0.09) 0px -3px 5px;
+    padding: 3% 5%;
+    background-color: #484848;
+}
+
+.name-txt {
+    font-size: 2.9rem;
+}
+
+.deets {
+    font-size: 0.9rem;
+}
+
+.email-links {
+    width: 100%;
+}
+
+.header-links {
+    padding: 0 3px;
+    font-size: 0.9rem;
+}
+
+/* objectives section */
+.objectives {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.obj-hr {
+    border-top: 4px double;
+}
+
+/* education section */
+.education {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* skills section */
+.skills-left {
+    width: 20%;
+}
